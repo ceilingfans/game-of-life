@@ -22,6 +22,6 @@ cd game-of-life
 cmake .
 ```
 Navigate into the build folder and cd into the bin directory.
-Here you will the executable and the `resources` folder.
+Here you will find the executable and the `resources` folder.
 
 In the `resources` folder you will find an `in.txt` file in which you input the cells you want alive
