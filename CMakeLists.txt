@@ -17,8 +17,11 @@ set(CMAKE_C_STANDARD 11)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/CMAKE")
 set(HEADER_FILES
-        )
+        include/Colours.hpp
+        include/Utility.hpp
+        include/RenderWindow.hpp)
 set(SOURCE_FILES
+        src/RenderWindow.cpp
         src/main.cpp)
 
 Message("")
