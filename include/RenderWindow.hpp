@@ -2,7 +2,6 @@
  * awned 2021
  */
 
-#pragma once
 #ifndef GAMEOFLIFE_RENDERWINDOW_H
 #define GAMEOFLIFE_RENDERWINDOW_H
 
@@ -17,7 +16,12 @@ public:
     void clear();
     void display();
     void cleanUp();
-    void renderCell(const int &p_x, const int &p_y, const int &p_gd);
+    void renderCell(const int &p_x, const int &p_y);
+
+    SDL_Renderer *getRenderer()
+    {
+        return renderer;
+    }
 private:
     SDL_Window   *window;
     SDL_Renderer *renderer;
