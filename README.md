@@ -14,14 +14,15 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 * a c++ compiler
 * cmake
+* make
 
 ## Building
 ```shell
 git clone https://github.com/ceilingfans/game-of-life.git
 cd game-of-life
 cmake .
+make
 ```
-Navigate into the build folder and cd into the bin directory.
-Here you will find the executable and the `resources` folder.
+Navigate into the `bin` folder, you will find the executable and the `resources` folder
 
 In the `resources` folder you will find an `in.txt` file in which you input the cells you want alive
